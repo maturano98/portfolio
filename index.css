@@ -32,7 +32,7 @@ main>h1 {
 	background: rgb(16,115,231);
 }
 #der {
-	margin-top: -720px;
+	margin-top: 50%;
 }
 .frame-land {
   background-color: #887848;
@@ -49,13 +49,13 @@ main>h1 {
 }
 .frame-land-inside {
   background: #786038 url("./frame-land-inside.png") bottom left repeat-x;
-  width: 716px;
+  width: 99%;
   margin-top: -4px;
   margin-left: -4px;
   padding: 10px 20px 20px 20px;
 }
 .sidebar-right {
-  width: 780px;
+  width: 50%;
   padding: 60px;
 }
 
@@ -90,6 +90,10 @@ img {
 #grid {
   display: grid;
   grid-template-columns: 100px repeat(auto-fill, 100px) 200px;
-  gap:200px;
+  gap: 100%;
   padding-top: 50px;
+}
+iframe {
+	min-width: 310px;
+  width: 60%;
 }
