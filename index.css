@@ -31,19 +31,12 @@ main>h1 {
 .reel>h1 {
 	background: rgb(16,115,231);
 }
-svg {
-    max-width: 100%;
-    height: auto;
-    /* Optional */
-    display: block;
-}
 #der {
 	margin-top: -720px;
 }
 .frame-land {
   background-color: #887848;
-  border:
-16px solid transparent;
+  border: 16px solid transparent;
     border-image-repeat: stretch;
     border-image-slice: 100%;
     border-image-source: none;
@@ -55,13 +48,11 @@ svg {
 	color: white;
 }
 .frame-land-inside {
-  background:
-#786038 url("./frame-land-inside.png") bottom left repeat-x;
+  background: #786038 url("./frame-land-inside.png") bottom left repeat-x;
   width: 716px;
   margin-top: -4px;
   margin-left: -4px;
-  padding:
-10px 20px 20px 20px;
+  padding: 10px 20px 20px 20px;
 }
 .sidebar-right {
   width: 780px;
@@ -100,10 +91,5 @@ img {
   display: grid;
   grid-template-columns: 100px repeat(auto-fill, 100px) 200px;
   gap:200px;
-  justify-content: center;
   padding-top: 50px;
-}
-
-#grid>div {
-
 }
