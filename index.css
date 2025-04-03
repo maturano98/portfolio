@@ -1,0 +1,109 @@
+@font-face {
+    font-family: pokemon-font;
+    src: url(./fuente/pokemon-font.ttf);
+}
+
+body {
+	background: url('./bg-grass.png')
+}
+
+main>h1 {
+	background-color: #88AA00;
+	border: 17px solid transparent;
+	border-image-source: url("./button.png");
+	border-image-slice: 17;
+	font-family: 'pokemon-font';
+	font-size: 1em
+	/*
+	background: rgb(211, 211, 211);
+	border-radius: 1px;
+	border: none;
+	box-shadow: 0 0 0 3px rgb(179, 184, 186), 0 0 0 4px rgb(148, 153, 157), 0 0 0 6px rgb(88, 95, 102), 0 0 0 8px rgb(63, 71, 78);
+	padding: 2vh;
+	width: 80%;
+	font-family: 'pokemon-font';
+	font-size: 1em;*/
+}
+
+.reel {
+	background: white;
+}
+.reel>h1 {
+	background: rgb(16,115,231);
+}
+svg {
+    max-width: 100%;
+    height: auto;
+    /* Optional */
+    display: block;
+}
+#der {
+	margin-top: -720px;
+}
+.frame-land {
+  background-color: #887848;
+  border:
+16px solid transparent;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+  border-image-source: url("./frame-land.png");
+  border-image-slice: 16;
+  border-image-repeat: round;
+  	font-family: 'pokemon-font';
+	font-size: 0.8em;
+	color: white;
+}
+.frame-land-inside {
+  background:
+#786038 url("./frame-land-inside.png") bottom left repeat-x;
+  width: 716px;
+  margin-top: -4px;
+  margin-left: -4px;
+  padding:
+10px 20px 20px 20px;
+}
+.sidebar-right {
+  width: 780px;
+  padding: 60px;
+}
+
+#proyectos {
+	width: 100%;
+	margin:0;
+	padding-top: 60px;
+	background: #3860A8 url('./bg-water.png') top center repeat;
+  	font-family: 'pokemon-font';
+	font-size: 0.7em;
+	color: white;
+	padding-bottom: 60px;
+}
+
+span.icons {
+  width: 23px;
+  height: 16px;
+  background: url('./icons-sprite.png') 0 0 no-repeat;
+    background-position-x: 0px;
+    background-position-y: 0px;
+  display: inline-block;
+  margin-right: 12px;
+  text-indent: -99999;
+}
+span.icons.icon-about {
+  background-position: 0 -32px;
+}
+
+img {
+	max-width: 150px;
+}
+#grid {
+  display: grid;
+  grid-template-columns: 100px repeat(auto-fill, 100px) 200px;
+  gap:200px;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+#grid>div {
+
+}
